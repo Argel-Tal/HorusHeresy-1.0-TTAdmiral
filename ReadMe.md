@@ -4,7 +4,7 @@ __Repository for Horus Heresy 1.0 data for use with Tabletop Admiral army builde
 Supporting Heresy 1.0 given the BattleScribe repos for 1.0 are no longer being maintained, and BattleScribe is now effectively abandon-ware. 
 
 ## Implementation
-
+Horus Heresy 1st Edition is based on the Warhammer 6th-7th Edition framework
 ### Factions
 - Legiones Astartes
     - I Dark Angels
@@ -39,64 +39,73 @@ Supporting Heresy 1.0 given the BattleScribe repos for 1.0 are no longer being m
 - Zone Mortalis Combatant
 
 ### Unit Types
+#### List
 - Infantry
     - Boosted
-        - Jump Units
-        - Jet Pack Units
-        
+        - Jump
+        - Jet Pack
     - Mounted
-        - Bikes
-        - Jetbikes
+        - Bike
+        - Jetbike
         - Cavalry
-    - Beasts
-    - Monstrous Creatures
-        - Flying Monstrous Creatures
-        - Gargantuan
-        - Flying Gargantuan Creatures
+    - Beast
+    - Monstrous Creature
     - Artillery
 - Vehicles
-    - Transports
-    - Flyers
-    - Chariots
-    - Open-topped Vehicles
-    - Heavy Vehicles
-    - Fast Vehicles
-    - Skimmers
-    - Walkers
-    - Tanks
+    - Flyer
+    - Chariot
+    - Walker
     - Super-heavy
-        - Super-heavy Vehicles
-        - Super-heavy Walkers
-        - Super-heavy Flyers
+        - Super-heavy Walker
+        - Super-heavy v
 
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
-
+#### Unit Type Map
 ```mermaid
 classDiagram
-Class01 <|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 <--> C2: Cool label
+Infantry --|> Boosted
+Infantry --|> Mounted
+Infantry --|> Beast
+Infantry --|> Boosted
+Infantry --|> Monstrous Creature
+Infantry --|> Artillery
+Boosted --|> Jump
+Boosted --|> Jet Pack
+Mounted --|> Bike
+Mounted --|> Jetbike
+Mounted --|> Cavalry
+Vehicles --|> Flyers
+Vehicles --|> Chariots
+Vehicles --|> Walkers
+Vehicles --|> Super-heavy
+Super-heavy --|> Super-heavy Walkers
+Super-heavy --|> Super-heavy Flyer
+Infantry : int Mv
+Infantry : int WS
+Infantry : int BS
+Infantry : int S
+Infantry : int T
+Infantry : int I
+Infantry : int A
+Infantry : int Wd
+Infantry : int Ld
+Infantry : int Save
+Infantry : int ISave
+Infantry : str Type(s)
+Vehicles : int BS
+Vehicles : int Front AV
+Vehicles : int Side AV
+Vehicles : int Rear AV
+Vehicles : int Front HP
+Vehicles : str Type(s)
 ```
 
 ## Links
-- <a href="https://modular.tabletopadmiral.com/">Tabletop admiral webclient</a>
-- <a href="https://nowforwrath.github.io/data.json">Reference data: Now for Wrath's MESBG datafile</a>
-- <a href="https://github.com/BSData/horus-heresy-1e">Reference data: Horus Heresy 1.0</a>
-- <a href="https://github.com/BSData/horus-heresy">Reference data: Horus Heresy 2.0</a>
+### Client
+- <a href="https://modular.tabletopadmiral.com/">Tabletop admiral webApp</a>
+### Data files
+- <a href="https://nowforwrath.github.io/data.json">Now for Wrath's MESBG datafile</a>
+- <a href="https://github.com/BSData/horus-heresy-1e">Horus Heresy 1st</a>
+- <a href="https://github.com/BSData/horus-heresy">Horus Heresy 2nd</a>
+### Resources
+- <a href="https://scoolov.github.io/wh40000rules/home-page/">Wahapedia Warhammer 40k 7th</a>
 

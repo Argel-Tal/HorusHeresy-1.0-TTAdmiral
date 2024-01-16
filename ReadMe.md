@@ -91,7 +91,6 @@ classDiagram
 Infantry --|> Boosted
 Infantry --|> Mounted
 Infantry --|> Beast
-Infantry --|> Boosted
 Infantry --|> Monstrous Creature
 Infantry --|> Artillery
 Boosted --|> Jump

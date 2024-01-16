@@ -55,9 +55,6 @@ Horus Heresy 1st Edition is based on the Warhammer 6th-7th Edition framework
     - Flyer
     - Chariot
     - Walker
-    - Super-heavy
-        - Super-heavy Walker
-        - Super-heavy v
 
 #### Unit Type Map
 ```mermaid
@@ -76,9 +73,6 @@ Mounted --|> Cavalry
 Vehicles --|> Flyers
 Vehicles --|> Chariots
 Vehicles --|> Walkers
-Vehicles --|> Super-heavy
-Super-heavy --|> Super-heavy Walkers
-Super-heavy --|> Super-heavy Flyer
 Infantry : int Mv
 Infantry : int WS
 Infantry : int BS

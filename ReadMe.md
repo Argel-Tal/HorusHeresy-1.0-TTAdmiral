@@ -5,10 +5,15 @@ Supporting Heresy 1.0 given the BattleScribe repos for 1.0 are no longer being m
 
 ## Implementation
 Horus Heresy 1st Edition is based on the Warhammer 6th-7th Edition framework
+### Alignment
+- Loyalist
+- Traitor
+- Neutral / 3rd Party
+
 ### Factions
 #### List
 - Legiones Astartes
-    - I: Dark Angels (The First)
+    - I: Dark Angels
     - III: Emperor's Children
     - IV: Iron Warriors
     - V: White Scars
@@ -17,12 +22,12 @@ Horus Heresy 1st Edition is based on the Warhammer 6th-7th Edition framework
     - VIII: Night Lords
     - IX: Blood Angels
     - X: Iron Hands
-    - XII: World Eaters (War Hounds)
+    - XII: World Eaters
     - XIII: Ultramarines
-    - XIV: Death Guard (Dusk Raiders)
+    - XIV: Death Guard
     - XV: Thousand Sons
-    - XVI: Black Legion (Sons of Horus, Luna Wolves)
-    - XVII: Word Bearers (Imperial Heralds)
+    - XVI: Sons of Horus
+    - XVII: Word Bearers
     - XVIII: Salamanders
     - XIX: Raven Guard
     - XX: Alpha Legion
@@ -41,16 +46,38 @@ Horus Heresy 1st Edition is based on the Warhammer 6th-7th Edition framework
 
 #### Diagram
 ```mermaid
-graph TD;
-    LegionesAstartes-->X;
-    Mechanicum-->Taghamata;
-    Mechanicum-->LegioCybernetica;
-    Mechanicum-->OrdoReductor;
-    Mechanicum-->QuestorisKnights;
-    CrusadeImperialis-->SolarAuxilia;
-    CrusadeImperialis-->Militia&Cults;
-    Other-->DaemonsOfTheRuinstorm;
-    Other-->ArmyOfDarkCompliance;
+mindmap
+  root((FactionList))
+    LegionesAstartes
+        Dark Angels
+        Emperor's Children
+        Iron Warriors
+        White Scars
+        Space Wolves
+        Imperial Fists
+        Night Lords
+        Blood Angels
+        Iron Hands
+        World Eaters
+        Ultramarines
+        Death Guard
+        Thousand Sons
+        Sons of Horus
+        Word Bearers
+        Salamanders
+        Raven Guard
+        Alpha Legion
+    Mechanicum
+        Taghamata
+        Legio Cybernetica
+        Ordo Reductor
+        Questoris Knights
+    CrusadeImperialis
+        Solar Auxilia
+        Militia & Cults
+    Other
+        Daemons of the Ruinstorm
+        Army of Dark Compliance
 ```
 
 ### Force Orgs
@@ -88,6 +115,11 @@ graph TD;
 #### Unit Type Map
 ```mermaid
 classDiagram
+UnitContainer --|> Infantry
+UnitContainer --|> Vehicle
+UnitContainer : str SpecialRules(s)
+UnitContainer : bool LoyalistOnly
+UnitContainer : bool TraitorOnly
 Infantry --|> Boosted
 Infantry --|> Mounted
 Infantry --|> Beast

@@ -6,12 +6,27 @@ Supporting Heresy 1.0 given the BattleScribe repos for 1.0 are no longer being m
 ## Implementation
 Horus Heresy 1st Edition is based on the Warhammer 6th-7th Edition framework
 ### Factions
+#### List
 - Legiones Astartes
-    - I Dark Angels
-    - III Emperor's Children
-    - IV Iron Warriors
-    - ...
-    - Blackshields
+    - I: Dark Angels (The First)
+    - III: Emperor's Children
+    - IV: Iron Warriors
+    - V: White Scars
+    - VI: Space Wolves
+    - VII: Imperial Fists
+    - VIII: Night Lords
+    - IX: Blood Angels
+    - X: Iron Hands
+    - XII: World Eaters (War Hounds)
+    - XIII: Ultramarines
+    - XIV: Death Guard (Dusk Raiders)
+    - XV: Thousand Sons
+    - XVI: Black Legion (Sons of Horus, Luna Wolves)
+    - XVII: Word Bearers (Imperial Heralds)
+    - XVIII: Salamanders
+    - XIX: Raven Guard
+    - XX: Alpha Legion
+
 - Mechanicum
     - Taghamata
     - Legio Cybernetica
@@ -23,6 +38,20 @@ Horus Heresy 1st Edition is based on the Warhammer 6th-7th Edition framework
 - Other
     - Daemons of the Ruinstorm
     - Army of Dark Compliance
+
+#### Diagram
+```mermaid
+graph TD;
+    LegionesAstartes-->X;
+    Mechanicum-->Taghamata;
+    Mechanicum-->LegioCybernetica;
+    Mechanicum-->OrdoReductor;
+    Mechanicum-->QuestorisKnights;
+    CrusadeImperialis-->SolarAuxilia;
+    CrusadeImperialis-->Militia&Cults;
+    Other-->DaemonsOfTheRuinstorm;
+    Other-->ArmyOfDarkCompliance;
+```
 
 ### Force Orgs
 - Crusade
@@ -51,7 +80,7 @@ Horus Heresy 1st Edition is based on the Warhammer 6th-7th Edition framework
     - Beast
     - Monstrous Creature
     - Artillery
-- Vehicles
+- Vehicle
     - Flyer
     - Chariot
     - Walker
@@ -70,9 +99,9 @@ Boosted --|> Jet Pack
 Mounted --|> Bike
 Mounted --|> Jetbike
 Mounted --|> Cavalry
-Vehicles --|> Flyers
-Vehicles --|> Chariots
-Vehicles --|> Walkers
+Vehicle --|> Flyers
+Vehicle --|> Chariots
+Vehicle --|> Walkers
 Infantry : int Mv
 Infantry : int WS
 Infantry : int BS
@@ -85,12 +114,12 @@ Infantry : int Ld
 Infantry : int Save
 Infantry : int ISave
 Infantry : str Type(s)
-Vehicles : int BS
-Vehicles : int Front AV
-Vehicles : int Side AV
-Vehicles : int Rear AV
-Vehicles : int Front HP
-Vehicles : str Type(s)
+Vehicle : int BS
+Vehicle : int Front AV
+Vehicle : int Side AV
+Vehicle : int Rear AV
+Vehicle : int Front HP
+Vehicle : str Type(s)
 ```
 
 ## Links

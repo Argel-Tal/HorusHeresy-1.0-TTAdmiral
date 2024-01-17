@@ -153,6 +153,10 @@ Artillery   :   int Ld = NA
 ```
 
 ### Unit Implementation Plan
+#### As intended
+
+<img src="./ReadMeImages/interfaceAsIntended.png" width="800">
+
 #### Examples
 ##### Angron
 ```json

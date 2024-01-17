@@ -13,7 +13,7 @@
 			"type": "faction",
 			"divisionProperty": "forceCategory",
 			"divisions": [
-				"LegionesAstartes",
+				"Legiones Astartes",
 				"CrusadeImperialis", 
 				"Mechanicum", 
 				"Other"
@@ -311,14 +311,8 @@
 				]
 			},
 			{
-				"name": "Riders of Theoden",
-				"forceCategory": "Mechanicum",
-				"parentFaction": "Taghamata",
-				"armyBonus": "“Ride for Ruin and the World's Ending!” - Friendly Rohan Cavalry models gain +1 Strength on a turn in which they Charge.\n“Death!” - The King of Rohan's battlecry inspired all that followed him to perform great deeds that would be worthy of remembrance. Once per game, at the start of any Fight phase, so long as he is alive and on the battlefield, Théoden can declare that he is using this ability. Every friendly Rohan Hero within 12\" may declare either a Heroic Combat or Heroic Strike (if able) without expending Might points to do so."
-			},
-			{
 				"name": "Minas Tirith",
-				"forceCategory": "LegionesAstartes",
+				"forceCategory": "Legiones Astartes",
 				"armyBonus": "\"You are Men of Gondor. Whatever comes throught that Gate, you will stand your Ground!\" - Friendly Gondor models from this army list increase their Courage value by 1.",
 				"primaryAllies": [
 					"The Dead of Dunharrow",
@@ -348,10 +342,10 @@
 				"armyBonus": "“Protect the Prince” - All models in this force gain the Sword Protector (Theodred) special rule.\n\"Riders of Theodred!” - Captains of Rohan, Riders of Rohan and Rohan Royal Guard treat Théodred as if he were Théoden for the purpose of their Arise Riders of Théoden special rule.\n\"Fight in Ranks!\" - Friendly Rohan Infantry models armed with throwing spears spears may use them as standard spears in addition to their normal use. However, if a model uses their spear as a throwing spear in a turn, they cannot use it as a standard spear in the same turn. "
 			},
 			{
-				"name": "Defenders of Helm's Deep",
+				"name": "Ordo Reductor",
 				"forceCategory": "Mechanicum",
 				"parentFaction": "Taghamata",
-				"armyBonus": "\"Fight in Ranks!\" - Friendly Rohan Infantry models armed with throwing spears spears may use them as standard spears in addition to their normal use. However, if a model uses their spear as a throwing spear in a turn, they cannot use it as a standard spear in the same turn.\n\"Give them a Volley\" - Models from this Legendary Legion armed with either a bow, longbow or Elf bow may increase the range of their type of bow from 24\" to 30\", provided they have not moved that turn.\n\"Fall Back to the keep! - If this force is Broken, then Warrior models from this force add 1 to their Courage value. Additionally, if this force is Broken, friendly Warrior models may re-roll failed Courage tests whilst they are within 6\" of Théoden.\"\nA Defenders of Helm's Deep Legendary Legion may only have a maximum of 33% of its models with the Lorien Keyword."
+				"armyBonus": "\"Fight in Ranks!\" - Friendly Rohan Infantry models armed with throwing spears spears may use them as standard spears in addition to their normal use. However, if a model uses their spear as a throwing spear in a turn, they cannot use it as a standard spear in the same turn.\n\"Give them a Volley\" - Models from this Legendary Legion armed with either a bow, longbow or Elf bow may increase the range of their type of bow from 24\" to 30\", provided they have not moved that turn.\n\"Fall Back to the keep! - If this force is Broken, then Warrior models from this force add 1 to their Courage value. Additionally, if this force is Broken, friendly Warrior models may re-roll failed Courage tests whilst they are within 6\" of Théoden.\"\nA Ordo Reductor Legendary Legion may only have a maximum of 33% of its models with the Lorien Keyword."
 			},
 			{
 				"name": "Solar Auxilia",
@@ -363,21 +357,12 @@
 				"armyBonus": "\"Great Resilience\" - Whenever a friendly Bear model suffers a Wound, roll a D6. On the roll of a natural 6 the Wound is ignored just as if a point of Fate had been spent.\n\"Charge of the Bear\" - Whilst they have the Bear keyword, Beorn and Grimbeorn gain the Monstrous Charge special rule.\n\"Natural Resistance\" - Friendly models gain the Resistant to Magic special rule.\n\"Fuelled by Fury - Beorn and Grimbeorn do not need to roll for their Skin-changer special rule; they can transform at will.\n-If a Beornings force includes both Beorn and Grimbeorn, then Beorn will automatically be the leader.\n-Friendly models may benefit from Beorn's Heroic Actions. Additionally, Beorning models may benefit from Beorn's Stand Fast!\n-Whilst he is in bear form, Beorn may still benefit from the Heroic Actions of Grimbeorn regardless of his berserk special rule."
 			},
 			{
-				"name": "AAAAAA",
-				"parentFaction": "Legio Cybernetica",
-				"keywordMatches": [
-					"Taghamata"
-				],
-				"forceCategory": "LegionesAstartes",
-				"armyBonus": "All models in this force must have the Infantry keyword. No Cavalry models are available.\nOnly Gondor Hero models may lead Gondor Warrior models. Only Rohan Hero models may lead Rohan Warrior models.\n\"This Day We Fight!\" - Whilst Aragorn, King Elessar, is alive and on the battlefield, all models from this army list automatically pass all Courage tests that they are required to make.\n\"For Frodo!\" - Once per game, at the start of any Fight phase, so long as he is alive and on the battlefield, Aragorn can declare he is using this ability. Friendly models within 12\" increase their Fight value by 1 until the end of the turn."
-			},
-			{
 				"name": "Rangers of Ithilien",
 				"parentFaction": "Minas Tirith",
 				"keywordMatches": [
 					"Gondor"
 				],
-				"forceCategory": "LegionesAstartes",
+				"forceCategory": "Legiones Astartes",
 				"keywords": [
 					"Woodland Creature"
 				],
@@ -415,7 +400,7 @@
 				"name": "Theoden, King of Rohan",
 				"requiredIn": [
 					"Riders of Theoden",
-					"Defenders of Helm's Deep",
+					"Ordo Reductor",
 					"Paths of the Druadan"
 				],
 				"factions": [
@@ -428,7 +413,7 @@
 						"heroicTier": "Hero of Legend"
 					},
 					{
-						"name": "Defenders of Helm's Deep",
+						"name": "Ordo Reductor",
 						"heroicTier": "Hero of Legend"
 					},
 					{
@@ -486,12 +471,12 @@
 						"availableIn": [
 							"Taghamata",
 							"Riders of Theoden",
-							"Defenders of Helm's Deep",
+							"Ordo Reductor",
 							"Paths of the Druadan"
 						],
 						"requiredIn": [
 							"Riders of Theoden",
-							"Defenders of Helm's Deep"
+							"Ordo Reductor"
 						]
 					},
 					{
@@ -500,7 +485,7 @@
 						"availableIn": [
 							"Taghamata",
 							"Riders of Theoden",
-							"Defenders of Helm's Deep",
+							"Ordo Reductor",
 							"Paths of the Druadan"
 						],
 						"requiredIn": [
@@ -1535,7 +1520,7 @@
 				"factions": [
 					"Taghamata",
 					"Legio Cybernetica",
-					"Defenders of Helm's Deep",
+					"Ordo Reductor",
 					"Helm's Guard",
 					"The Men of the West"
 				],

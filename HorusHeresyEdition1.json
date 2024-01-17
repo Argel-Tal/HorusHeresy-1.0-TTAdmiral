@@ -20,11 +20,11 @@
 			],
 			"children": [
 				{
-					"propertyName": "Crusade-ForceOrg",
-					"label": "Crusade Force Org",
+					"propertyName": "units",
+					"label": "Units",
 					"type": "main",
-					"divisionProperty": "Crusade-ForceOrgSlot",
-					"divisionData": "Crusade-ForceOrgSlots",
+					"divisionProperty": "CrusadeForceOrgSlot",
+					"divisionData": "CrusadeForceOrgSlots",
 					"divisions": [
 						{
 							"name": "HQ",
@@ -322,7 +322,7 @@
 				]
 			}
 		],
-		"Crusade-ForceOrgSlots": [
+		"CrusadeForceOrgSlots": [
 			{
 				"name": "HQ",
 				"followers": 3
@@ -364,19 +364,19 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Riders of Theoden",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Defenders of Helm's Deep",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Paths of the Druadan",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 75,
@@ -466,11 +466,11 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Theodred's Guard",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"requiredIn": [
@@ -538,23 +538,23 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Riders of Theoden",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Riders of Eomer",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Paths of the Druadan",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Men of the West",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"requiredIn": [
@@ -647,11 +647,11 @@
 				"factions": [
 					{
 						"name": "Emperor's Children",
-						"Crusade-ForceOrgSlot": "Lord of War"
+						"CrusadeForceOrgSlot": "Lord of War"
 					}, 
 					{
 						"name": "Emperor's Children",
-						"Crusade-ForceOrgSlot": "HQ"
+						"CrusadeForceOrgSlot": "HQ"
 					}
 				],
 				"points": 380,
@@ -701,11 +701,11 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "The Men of the West",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"points": 25,
@@ -762,11 +762,11 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Riders of Eomer",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 75,
@@ -815,19 +815,19 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Paths of the Druadan",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Riders of Theoden",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of Helm's Deep",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 55,
@@ -891,7 +891,7 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 55,
@@ -939,11 +939,11 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Theodred's Guard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 60,
@@ -982,7 +982,7 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"allianceRules": {
@@ -1041,15 +1041,15 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Defenders of Helm's Deep",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Helm's Guard",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -1088,35 +1088,35 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Paths of the Druadan",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Riders of Theoden",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Riders of Eomer",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Theodred's Guard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of Helm's Deep",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Helm's Guard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Men of the West",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -1233,15 +1233,15 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Paths of the Druadan",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Riders of Theoden",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"points": 75,
@@ -1297,15 +1297,15 @@
 				"factions": [
 					{
 						"name": "Rivendell",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Grey Company",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Men of the West",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 160,
@@ -1365,11 +1365,11 @@
 				"factions": [
 					{
 						"name": "Rivendell",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Grey Company",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unavailableSolo": true,
@@ -1405,11 +1405,11 @@
 				"factions": [
 					{
 						"name": "Rivendell",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Grey Company",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unavailableSolo": true,
@@ -1445,19 +1445,19 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Paths of the Druadan",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Riders of Theoden",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Theodred's Guard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 65,
@@ -1514,15 +1514,15 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Paths of the Druadan",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Riders of Theoden",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 75,
@@ -1578,19 +1578,19 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Angmar",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Barad Dur",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Black Riders",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"requiredIn": [
@@ -1762,11 +1762,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Easterlings",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 120,
@@ -1859,7 +1859,7 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 120,
@@ -1949,7 +1949,7 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 120,
@@ -2035,7 +2035,7 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 120,
@@ -2122,11 +2122,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Corsairs of Umbar",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 120,
@@ -2212,11 +2212,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Serpent Horde",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 120,
@@ -2304,11 +2304,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Army of Gothmog",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"requiredIn": [
@@ -2361,11 +2361,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Black Gate Opens",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 70,
@@ -2425,11 +2425,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Cirith Ungol",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"requiredIn": [
@@ -2480,11 +2480,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Cirith Ungol",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"requiredIn": [
@@ -2530,11 +2530,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Ugluk's Scouts",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -2576,11 +2576,11 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Ugluk's Scouts",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -2618,7 +2618,7 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 60,
@@ -2669,15 +2669,15 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Army of Gothmog",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Black Gate Opens",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -2722,7 +2722,7 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -2761,7 +2761,7 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"unlimited": true,
@@ -2796,11 +2796,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Cirith Ungol",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -2849,7 +2849,7 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"hideStats": true,
@@ -2905,7 +2905,7 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -2944,7 +2944,7 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -2979,11 +2979,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Angmar",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 120,
@@ -3075,11 +3075,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Angmar",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 120,
@@ -3170,15 +3170,15 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Barad Dur",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Black Riders",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -3300,39 +3300,39 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Black Gate Opens",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Barad Dur",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Wolves of Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Cirith Ungol",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Ugluk's Scouts",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Assault on Lothlorien",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Fell Beings of Mirkwood",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -3396,7 +3396,7 @@
 				"factions": [
 					{
 						"name": "Angmar",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -3448,19 +3448,19 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Army of Gothmog",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Barad Dur",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Fell Beings of Mirkwood",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -3501,15 +3501,15 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Barad Dur",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Corsairs of Umbar",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -3561,15 +3561,15 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Black Gate Opens",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Barad Dur",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -3610,31 +3610,31 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "The Army of Gothmog",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Barad Dur",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Wolves of Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Cirith Ungol",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Assault on Lothlorien",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Fell Beings of Mirkwood",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -3700,7 +3700,7 @@
 				"factions": [
 					{
 						"name": "Angmar",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -3754,15 +3754,15 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "Barad Dur",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "Cirith Ungol",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"cannotBeChild": true,
@@ -3804,19 +3804,19 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "The Army of Gothmog",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "Barad Dur",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "Fell Beings of Mirkwood",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"unlimited": true,
@@ -3851,15 +3851,15 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "The Army of Gothmog",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Barad Dur",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -3912,15 +3912,15 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "The Army of Gothmog",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Barad Dur",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -3984,7 +3984,7 @@
 				"factions": [
 					{
 						"name": "Rivendell",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 70,
@@ -4031,11 +4031,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Army of Gothmog",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 80,
@@ -4074,11 +4074,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Army of Gothmog",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 60,
@@ -4115,11 +4115,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Army of Gothmog",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 60,
@@ -4158,11 +4158,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Army of Gothmog",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 60,
@@ -4200,7 +4200,7 @@
 				"factions": [
 					{
 						"name": "Rivendell",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"allianceRules": {
@@ -4277,15 +4277,15 @@
 				"factions": [
 					{
 						"name": "Rivendell",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "The White Council",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Vanquishers of the Necromancer",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 170,
@@ -4355,11 +4355,11 @@
 				"factions": [
 					{
 						"name": "Rivendell",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The White Council",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 145,
@@ -4412,7 +4412,7 @@
 				"factions": [
 					{
 						"name": "Rivendell",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 85,
@@ -4450,11 +4450,11 @@
 				"factions": [
 					{
 						"name": "Rivendell",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "The Fellowship",
-						"Crusade-ForceOrgSlot": "Minor Hero",
+						"CrusadeForceOrgSlot": "Minor Hero",
 						"unlockedBy": "Aragorn - Strider"
 					}
 				],
@@ -4514,7 +4514,7 @@
 				"factions": [
 					{
 						"name": "Rivendell",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 65,
@@ -4559,7 +4559,7 @@
 				"factions": [
 					{
 						"name": "Rivendell",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"points": 80,
@@ -4621,7 +4621,7 @@
 				"factions": [
 					{
 						"name": "Rivendell",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -4677,7 +4677,7 @@
 				"factions": [
 					{
 						"name": "Rivendell",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -4729,27 +4729,27 @@
 				"factions": [
 					{
 						"name": "The Rangers",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Fellowship",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Grey Company",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Return of the King",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Breaking of the Fellowship",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Defenders of Helm's Deep",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"requiredIn": [
@@ -4867,7 +4867,7 @@
 				"factions": [
 					{
 						"name": "The Rangers",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"allianceRules": {
@@ -4912,11 +4912,11 @@
 				"factions": [
 					{
 						"name": "The Rangers",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Grey Company",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 70,
@@ -4968,11 +4968,11 @@
 				"factions": [
 					{
 						"name": "The Rangers",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "The Grey Company",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"unlimited": true,
@@ -5024,11 +5024,11 @@
 				"factions": [
 					{
 						"name": "The Rangers",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Minor Hero",
+						"CrusadeForceOrgSlot": "Minor Hero",
 						"unlockedBy": "Gandalf the Grey"
 					}
 				],
@@ -5072,7 +5072,7 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 160,
@@ -5142,15 +5142,15 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Riders of Eomer",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Men of the West",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 220,
@@ -5246,7 +5246,7 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 80,
@@ -5294,7 +5294,7 @@
 				"factions": [
 					{
 						"name": "Angmar",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -5331,7 +5331,7 @@
 				"factions": [
 					{
 						"name": "Angmar",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -5375,11 +5375,11 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Rangers of Ithilien",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"requiredIn": "Rangers of Ithilien",
@@ -5465,11 +5465,11 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Rangers of Ithilien",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"points": 35,
@@ -5508,11 +5508,11 @@
 				"factions": [
 					{
 						"name": "The Iron Hills",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 140,
@@ -5568,11 +5568,11 @@
 				"factions": [
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Defenders of Erebor",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"allianceRules": {
@@ -5629,11 +5629,11 @@
 				"factions": [
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Defenders of Erebor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 110,
@@ -5684,11 +5684,11 @@
 				"factions": [
 					{
 						"name": "The Iron Hills",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Wanderers in the Wild",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"allianceRules": {
@@ -5742,7 +5742,7 @@
 				"factions": [
 					{
 						"name": "The Iron Hills",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unavailableSolo": true,
@@ -5779,7 +5779,7 @@
 				"factions": [
 					{
 						"name": "The Iron Hills",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unavailableSolo": true,
@@ -5818,15 +5818,15 @@
 				"factions": [
 					{
 						"name": "The Iron Hills",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of Erebor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -5887,7 +5887,7 @@
 				"factions": [
 					{
 						"name": "The Iron Hills",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"includesHeroes": [
@@ -5942,11 +5942,11 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Assault on Helm's Deep",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -6000,7 +6000,7 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 180,
@@ -6074,11 +6074,11 @@
 				"factions": [
 					{
 						"name": "The White Council",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Vanquishers of the Necromancer",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 170,
@@ -6153,11 +6153,11 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Lurtz's Scouts",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 90,
@@ -6206,15 +6206,15 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Lurtz's Scouts",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Ugluk's Scouts",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 65,
@@ -6253,11 +6253,11 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Wolves of Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"requiredIn": [
@@ -6309,7 +6309,7 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 65,
@@ -6348,15 +6348,15 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Lurtz's Scouts",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Ugluk's Scouts",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 60,
@@ -6392,15 +6392,15 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Lurtz's Scouts",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Ugluk's Scouts",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -6449,15 +6449,15 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "Lurtz's Scouts",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "Ugluk's Scouts",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"unlimited": true,
@@ -6492,11 +6492,11 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Rangers of Ithilien",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"points": 25,
@@ -6534,11 +6534,11 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "The Men of the West",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 225,
@@ -6591,7 +6591,7 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -6631,11 +6631,11 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "The Men of the West",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"points": 30,
@@ -6681,11 +6681,11 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "The Men of the West",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"points": 25,
@@ -6731,7 +6731,7 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 55,
@@ -6770,7 +6770,7 @@
 				"factions": [
 					{
 						"name": "Garrison of Dale",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"unavailableWithHeroes": [
@@ -6823,15 +6823,15 @@
 				"factions": [
 					{
 						"name": "Garrison of Dale",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Army of Dale",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of Erebor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -6876,15 +6876,15 @@
 				"factions": [
 					{
 						"name": "Garrison of Dale",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "The Army of Dale",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Defenders of Erebor",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 110,
@@ -6928,15 +6928,15 @@
 				"factions": [
 					{
 						"name": "Garrison of Dale",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Army of Dale",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Defenders of Erebor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 100,
@@ -6977,11 +6977,11 @@
 				"factions": [
 					{
 						"name": "Garrison of Dale",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "The Army of Dale",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -7031,7 +7031,7 @@
 				"factions": [
 					{
 						"name": "The Black Gate Opens",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"requiredIn": [
@@ -7074,11 +7074,11 @@
 				"factions": [
 					{
 						"name": "The Dead of Dunharrow",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Return of the King",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"requiredIn": [
@@ -7123,11 +7123,11 @@
 				"factions": [
 					{
 						"name": "The Dead of Dunharrow",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Return of the King",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -7171,31 +7171,31 @@
 				"factions": [
 					{
 						"name": "The Fellowship",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Grey Company",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Return of the King",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Breaking of the Fellowship",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Defenders of Helm's Deep",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Kingdom of Moria",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Men of the West",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 100,
@@ -7258,7 +7258,7 @@
 				"factions": [
 					{
 						"name": "Angmar",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 200,
@@ -7303,7 +7303,7 @@
 				"factions": [
 					{
 						"name": "Angmar",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 110,
@@ -7344,11 +7344,11 @@
 				"factions": [
 					{
 						"name": "Angmar",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Assault on Lothlorien",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 80,
@@ -7385,7 +7385,7 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"points": 25,
@@ -7425,7 +7425,7 @@
 				"factions": [
 					{
 						"name": "Barad Dur",
-						"Crusade-ForceOrgSlot": "Hero of Legend - Sauron"
+						"CrusadeForceOrgSlot": "Hero of Legend - Sauron"
 					}
 				],
 				"leaderPriority": 2,
@@ -7507,27 +7507,27 @@
 				"factions": [
 					{
 						"name": "The Fellowship",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Grey Company",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Return of the King",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Breaking of the Fellowship",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Defenders of Helm's Deep",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Men of the West",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 100,
@@ -7607,11 +7607,11 @@
 				"factions": [
 					{
 						"name": "The Fellowship",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Breaking of the Fellowship",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 95,
@@ -7683,7 +7683,7 @@
 				"factions": [
 					{
 						"name": "Rangers of Ithilien",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"availableOn": [
@@ -7708,11 +7708,11 @@
 				"factions": [
 					{
 						"name": "The Fellowship",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Breaking of the Fellowship",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 60,
@@ -7830,11 +7830,11 @@
 				"factions": [
 					{
 						"name": "The Fellowship",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Breaking of the Fellowship",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 40,
@@ -7926,11 +7926,11 @@
 				"factions": [
 					{
 						"name": "The Fellowship",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Breaking of the Fellowship",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"points": 10,
@@ -7983,11 +7983,11 @@
 				"factions": [
 					{
 						"name": "The Fellowship",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Breaking of the Fellowship",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"points": 10,
@@ -8040,7 +8040,7 @@
 				"factions": [
 					{
 						"name": "The Fellowship",
-						"Crusade-ForceOrgSlot": "Independent Hero",
+						"CrusadeForceOrgSlot": "Independent Hero",
 						"unlockedBy": "Samwise Gamgee"
 					}
 				],
@@ -8074,7 +8074,7 @@
 				"factions": [
 					{
 						"name": "The Fellowship",
-						"Crusade-ForceOrgSlot": "Independent Hero",
+						"CrusadeForceOrgSlot": "Independent Hero",
 						"unlockedBy": "Frodo Baggins"
 					}
 				],
@@ -8139,27 +8139,27 @@
 				"factions": [
 					{
 						"name": "The Fellowship",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Survivors of Lake-town",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The White Council",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Vanquishers of the Necromancer",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Thorin's Company",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"unavailableWithHeroes": [
@@ -8267,7 +8267,7 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"leaderPriority": 1,
@@ -8307,7 +8307,7 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"unavailableWithNamedHeroesWithKeyword": [
@@ -8384,7 +8384,7 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 65,
@@ -8424,7 +8424,7 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 65,
@@ -8463,15 +8463,15 @@
 				"factions": [
 					{
 						"name": "Azog's Legion",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Azog's Hunters",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Pits of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"requiredIn": [
@@ -8549,11 +8549,11 @@
 				"factions": [
 					{
 						"name": "Azog's Legion",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Azog's Hunters",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 165,
@@ -8615,7 +8615,7 @@
 				"factions": [
 					{
 						"name": "Angmar",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 40,
@@ -8661,7 +8661,7 @@
 				"factions": [
 					{
 						"name": "Azog's Hunters",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 45,
@@ -8713,7 +8713,7 @@
 				"factions": [
 					{
 						"name": "Azog's Hunters",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -8760,7 +8760,7 @@
 				"factions": [
 					{
 						"name": "Azog's Hunters",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -8806,15 +8806,15 @@
 				"factions": [
 					{
 						"name": "Azog's Hunters",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Pits of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Dark Powers of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -8877,7 +8877,7 @@
 				"factions": [
 					{
 						"name": "The Iron Hills",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -8930,11 +8930,11 @@
 				"factions": [
 					{
 						"name": "Lothlorien",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Defenders of Helm's Deep",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 70,
@@ -9006,11 +9006,11 @@
 				"factions": [
 					{
 						"name": "Lothlorien",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of Helm's Deep",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -9074,11 +9074,11 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "Defenders of Helm's Deep",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"points": 20,
@@ -9117,11 +9117,11 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "Defenders of Helm's Deep",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"points": 30,
@@ -9160,7 +9160,7 @@
 				"factions": [
 					{
 						"name": "Goblin-Town",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 130,
@@ -9204,7 +9204,7 @@
 				"factions": [
 					{
 						"name": "Goblin-Town",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 40,
@@ -9242,7 +9242,7 @@
 				"factions": [
 					{
 						"name": "Goblin-Town",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"points": 50,
@@ -9277,7 +9277,7 @@
 				"factions": [
 					{
 						"name": "Goblin-Town",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"points": 35,
@@ -9312,7 +9312,7 @@
 				"factions": [
 					{
 						"name": "Goblin-Town",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -9353,7 +9353,7 @@
 				"factions": [
 					{
 						"name": "Goblin-Town",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -9392,7 +9392,7 @@
 				"factions": [
 					{
 						"name": "The Kingdom of Khazad-Dum",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 160,
@@ -9433,7 +9433,7 @@
 				"factions": [
 					{
 						"name": "The Kingdom of Khazad-Dum",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 75,
@@ -9470,11 +9470,11 @@
 				"factions": [
 					{
 						"name": "The Kingdom of Moria",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Kingdom of Khazad-Dum",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"allowedNamedHeroesIn": [
@@ -9517,7 +9517,7 @@
 				"factions": [
 					{
 						"name": "The Kingdom of Moria",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"requiredIn": [
@@ -9561,11 +9561,11 @@
 				"factions": [
 					{
 						"name": "The Kingdom of Moria",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Kingdom of Khazad-Dum",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 75,
@@ -9619,11 +9619,11 @@
 				"factions": [
 					{
 						"name": "The Kingdom of Moria",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Kingdom of Khazad-Dum",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 60,
@@ -9684,11 +9684,11 @@
 				"factions": [
 					{
 						"name": "The Kingdom of Moria",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "The Kingdom of Khazad-Dum",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"points": 60,
@@ -9726,11 +9726,11 @@
 				"factions": [
 					{
 						"name": "The Kingdom of Moria",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Kingdom of Khazad-Dum",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 140,
@@ -9755,11 +9755,11 @@
 				"factions": [
 					{
 						"name": "The Kingdom of Moria",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Kingdom of Khazad-Dum",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 0,
@@ -9800,11 +9800,11 @@
 				"factions": [
 					{
 						"name": "The Kingdom of Moria",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "The Kingdom of Khazad-Dum",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"points": 0,
@@ -9844,11 +9844,11 @@
 				"factions": [
 					{
 						"name": "The Kingdom of Moria",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 55,
@@ -9886,7 +9886,7 @@
 				"factions": [
 					{
 						"name": "Thorin's Company",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 40,
@@ -9928,11 +9928,11 @@
 				"factions": [
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of Erebor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 80,
@@ -9973,7 +9973,7 @@
 				"factions": [
 					{
 						"name": "Thorin's Company",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 55,
@@ -10015,11 +10015,11 @@
 				"factions": [
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of Erebor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 75,
@@ -10059,7 +10059,7 @@
 				"factions": [
 					{
 						"name": "Thorin's Company",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 55,
@@ -10101,11 +10101,11 @@
 				"factions": [
 					{
 						"name": "The Kingdom of Moria",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 65,
@@ -10145,7 +10145,7 @@
 				"factions": [
 					{
 						"name": "Thorin's Company",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 45,
@@ -10186,11 +10186,11 @@
 				"factions": [
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of Erebor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 90,
@@ -10230,7 +10230,7 @@
 				"factions": [
 					{
 						"name": "Thorin's Company",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 85,
@@ -10273,7 +10273,7 @@
 				"factions": [
 					{
 						"name": "The Easterlings",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 130,
@@ -10324,11 +10324,11 @@
 				"factions": [
 					{
 						"name": "The Easterlings",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Host of the Dragon Emperor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -10392,11 +10392,11 @@
 				"factions": [
 					{
 						"name": "The Easterlings",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "The Host of the Dragon Emperor",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"points": 65,
@@ -10448,11 +10448,11 @@
 				"factions": [
 					{
 						"name": "The Easterlings",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Host of the Dragon Emperor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -10510,11 +10510,11 @@
 				"factions": [
 					{
 						"name": "The Easterlings",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "The Host of the Dragon Emperor",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"requiredIn": [
@@ -10572,11 +10572,11 @@
 				"factions": [
 					{
 						"name": "The Easterlings",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Host of the Dragon Emperor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 110,
@@ -10618,11 +10618,11 @@
 				"factions": [
 					{
 						"name": "The Easterlings",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Host of the Dragon Emperor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 80,
@@ -10682,7 +10682,7 @@
 				"factions": [
 					{
 						"name": "Variags of Khand",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 95,
@@ -10738,7 +10738,7 @@
 				"factions": [
 					{
 						"name": "Variags of Khand",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 55,
@@ -10791,15 +10791,15 @@
 				"factions": [
 					{
 						"name": "Azog's Legion",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Pits of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Dark Powers of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -10848,7 +10848,7 @@
 				"factions": [
 					{
 						"name": "Azog's Legion",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -10887,15 +10887,15 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Men of the West",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Rangers of Ithilien",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -10968,11 +10968,11 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Rangers of Ithilien",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 55,
@@ -11012,11 +11012,11 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Rangers of Ithilien",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"points": 35,
@@ -11055,11 +11055,11 @@
 				"factions": [
 					{
 						"name": "Wildmen of Druadan",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Paths of the Druadan",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 65,
@@ -11103,11 +11103,11 @@
 				"factions": [
 					{
 						"name": "The Dead of Dunharrow",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Wildmen of Druadan",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -11135,7 +11135,7 @@
 				"factions": [
 					{
 						"name": "Dark Denizens of Mirkwood",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude",
+						"CrusadeForceOrgSlot": "Hero of Fortitude",
 						"unlockedBy": "The Spider Queen"
 					}
 				],
@@ -11165,7 +11165,7 @@
 				"factions": [
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 115,
@@ -11221,7 +11221,7 @@
 				"factions": [
 					{
 						"name": "Thorin's Company",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 100,
@@ -11279,11 +11279,11 @@
 				"factions": [
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Defenders of Erebor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 115,
@@ -11334,7 +11334,7 @@
 				"factions": [
 					{
 						"name": "Thorin's Company",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 95,
@@ -11384,7 +11384,7 @@
 				"factions": [
 					{
 						"name": "Thorin's Company",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -11430,7 +11430,7 @@
 				"factions": [
 					{
 						"name": "Thorin's Company",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -11476,7 +11476,7 @@
 				"factions": [
 					{
 						"name": "Thorin's Company",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 40,
@@ -11521,7 +11521,7 @@
 				"factions": [
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 75,
@@ -11576,7 +11576,7 @@
 				"factions": [
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 75,
@@ -11631,7 +11631,7 @@
 				"factions": [
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 60,
@@ -11670,11 +11670,11 @@
 				"factions": [
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of Erebor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 65,
@@ -11713,7 +11713,7 @@
 				"factions": [
 					{
 						"name": "Thorin's Company",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 45,
@@ -11756,11 +11756,11 @@
 				"factions": [
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of Erebor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 65,
@@ -11799,7 +11799,7 @@
 				"factions": [
 					{
 						"name": "Thorin's Company",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 45,
@@ -11840,7 +11840,7 @@
 				"factions": [
 					{
 						"name": "Erebor Reclaimed",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 60,
@@ -11880,7 +11880,7 @@
 				"factions": [
 					{
 						"name": "Thorin's Company",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 45,
@@ -11922,11 +11922,11 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Army of Dunland",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"requiredIn": "Army of Dunland",
@@ -11972,7 +11972,7 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -12021,7 +12021,7 @@
 				"factions": [
 					{
 						"name": "Assault on Helm's Deep",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"increasesWarbandSize": 6,
@@ -12071,7 +12071,7 @@
 				"factions": [
 					{
 						"name": "Assault on Helm's Deep",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"requiredIn": [
@@ -12123,7 +12123,7 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -12176,7 +12176,7 @@
 				"factions": [
 					{
 						"name": "Assault on Helm's Deep",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -12230,11 +12230,11 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Army of Dunland",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 55,
@@ -12280,11 +12280,11 @@
 				"factions": [
 					{
 						"name": "Rohan",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Helm's Guard",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"allianceRules": {
@@ -12350,7 +12350,7 @@
 				"factions": [
 					{
 						"name": "Numenor",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 185,
@@ -12400,7 +12400,7 @@
 				"factions": [
 					{
 						"name": "Numenor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -12459,7 +12459,7 @@
 				"factions": [
 					{
 						"name": "Numenor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 120,
@@ -12511,11 +12511,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Fell Beings of Mirkwood",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 110,
@@ -12558,7 +12558,7 @@
 				"factions": [
 					{
 						"name": "Lothlorien",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 130,
@@ -12629,11 +12629,11 @@
 				"factions": [
 					{
 						"name": "The White Council",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Vanquishers of the Necromancer",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 130,
@@ -12691,11 +12691,11 @@
 				"factions": [
 					{
 						"name": "Lothlorien",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The White Council",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 130,
@@ -12766,7 +12766,7 @@
 				"factions": [
 					{
 						"name": "Lothlorien",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -12828,7 +12828,7 @@
 				"factions": [
 					{
 						"name": "Lothlorien",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -12880,7 +12880,7 @@
 				"factions": [
 					{
 						"name": "Lothlorien",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 85,
@@ -12924,7 +12924,7 @@
 				"factions": [
 					{
 						"name": "Lothlorien",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 85,
@@ -12962,7 +12962,7 @@
 				"factions": [
 					{
 						"name": "Fangorn",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 190,
@@ -13009,7 +13009,7 @@
 				"factions": [
 					{
 						"name": "Fangorn",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 160,
@@ -13050,7 +13050,7 @@
 				"factions": [
 					{
 						"name": "Fangorn",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 140,
@@ -13089,11 +13089,11 @@
 				"factions": [
 					{
 						"name": "Survivors of Lake-town",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Army of Lake-town",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 140,
@@ -13148,11 +13148,11 @@
 				"factions": [
 					{
 						"name": "Survivors of Lake-town",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "Army of Lake-town",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 20,
@@ -13191,11 +13191,11 @@
 				"factions": [
 					{
 						"name": "Survivors of Lake-town",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "Army of Lake-town",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"points": 30,
@@ -13222,7 +13222,7 @@
 				"factions": [
 					{
 						"name": "Survivors of Lake-town",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"unavailableSolo": true,
@@ -13255,7 +13255,7 @@
 				"factions": [
 					{
 						"name": "Survivors of Lake-town",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"unavailableSolo": true,
@@ -13277,7 +13277,7 @@
 					"Lake-town",
 					"Infantry"
 				],
-				"Crusade-ForceOrgSlot": "Hero of Independent Hero",
+				"CrusadeForceOrgSlot": "Hero of Independent Hero",
 				"options": [],
 				"specialRules": [],
 				"wargear": [
@@ -13289,11 +13289,11 @@
 				"factions": [
 					{
 						"name": "Survivors of Lake-town",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Army of Lake-town",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"points": 40,
@@ -13329,7 +13329,7 @@
 				"factions": [
 					{
 						"name": "Survivors of Lake-town",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -13366,7 +13366,7 @@
 				"factions": [
 					{
 						"name": "Survivors of Lake-town",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 30,
@@ -13402,7 +13402,7 @@
 				"factions": [
 					{
 						"name": "Survivors of Lake-town",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 90,
@@ -13443,11 +13443,11 @@
 				"factions": [
 					{
 						"name": "Rivendell",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"specialText": "Bilbo may only wear the Mithril Coat if no other model wears it. Bilbo may only take Sting if no other model has it. Bilbo may only wear the Ring if Frodo is not in the force.\n                If your force contains Bilbo and any of Frodo of the Nine Fingers; Samwise the Brave; Meriadoc, Captain of the Shire or Peregrin Took, Captain of the Shire, then it will automatically lose its Army Bonus. Additionally, the force will automatically be Impossible Allies with every other army list regardless of what the alliance would normally be.",
@@ -13497,7 +13497,7 @@
 				"factions": [
 					{
 						"name": "Thorin's Company",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 60,
@@ -13549,7 +13549,7 @@
 				"factions": [
 					{
 						"name": "Survivors of Lake-town",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -13591,7 +13591,7 @@
 				"factions": [
 					{
 						"name": "Army of Lake-town",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -13627,7 +13627,7 @@
 				"factions": [
 					{
 						"name": "Army of Lake-town",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -13666,7 +13666,7 @@
 				"factions": [
 					{
 						"name": "Halls of Thranduil",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 100,
@@ -13734,7 +13734,7 @@
 				"factions": [
 					{
 						"name": "Desolator of the North",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 700,
@@ -13804,11 +13804,11 @@
 				"factions": [
 					{
 						"name": "Halls of Thranduil",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Rangers of Mirkwood",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 95,
@@ -13871,11 +13871,11 @@
 				"factions": [
 					{
 						"name": "Halls of Thranduil",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Rangers of Mirkwood",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 85,
@@ -13928,7 +13928,7 @@
 				"factions": [
 					{
 						"name": "Halls of Thranduil",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -13976,7 +13976,7 @@
 				"factions": [
 					{
 						"name": "Halls of Thranduil",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -14014,11 +14014,11 @@
 				"factions": [
 					{
 						"name": "Halls of Thranduil",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Rangers of Mirkwood",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -14058,7 +14058,7 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -14112,11 +14112,11 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Army of Dunland",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 65,
@@ -14159,11 +14159,11 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Army of Dunland",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 70,
@@ -14205,11 +14205,11 @@
 				"factions": [
 					{
 						"name": "Isengard",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Army of Dunland",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 55,
@@ -14249,11 +14249,11 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Depths of Moria",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"requiredIn": [
@@ -14297,7 +14297,7 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 70,
@@ -14337,7 +14337,7 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -14376,11 +14376,11 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Assault on Lothlorien",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 90,
@@ -14431,11 +14431,11 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Assault on Lothlorien",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 55,
@@ -14488,15 +14488,15 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Depths of Moria",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Assault on Lothlorien",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -14543,15 +14543,15 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Depths of Moria",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Assault on Lothlorien",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -14602,11 +14602,11 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Depths of Moria",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -14646,11 +14646,11 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Depths of Moria",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -14700,7 +14700,7 @@
 				"factions": [
 					{
 						"name": "Minas Tirith",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"includesHeroes": [
@@ -14943,7 +14943,7 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"unlimited": true,
@@ -15016,7 +15016,7 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -15059,7 +15059,7 @@
 				"factions": [
 					{
 						"name": "Moria",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"points": 200,
@@ -15100,11 +15100,11 @@
 				"factions": [
 					{
 						"name": "The Fiefdoms",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "The Men of the West",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 140,
@@ -15161,11 +15161,11 @@
 				"factions": [
 					{
 						"name": "The Fiefdoms",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Men of the West",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -15219,15 +15219,15 @@
 				"factions": [
 					{
 						"name": "Radagast's Alliance",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "The White Council",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Vanquishers of the Necromancer",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 150,
@@ -15325,7 +15325,7 @@
 				"factions": [
 					{
 						"name": "The Fiefdoms",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 80,
@@ -15372,7 +15372,7 @@
 				"factions": [
 					{
 						"name": "The Fiefdoms",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 65,
@@ -15410,7 +15410,7 @@
 				"factions": [
 					{
 						"name": "The Fiefdoms",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 60,
@@ -15452,7 +15452,7 @@
 				"factions": [
 					{
 						"name": "Army of Lake-town",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"leaderPriority": 2,
@@ -15491,11 +15491,11 @@
 				"factions": [
 					{
 						"name": "The Kingdom of Moria",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "The Kingdom of Khazad-Dum",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -15550,7 +15550,7 @@
 				"factions": [
 					{
 						"name": "Azog's Legion",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -15590,11 +15590,11 @@
 				"factions": [
 					{
 						"name": "The Misty Mountains",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Radagast's Alliance",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 150,
@@ -15636,7 +15636,7 @@
 				"factions": [
 					{
 						"name": "Army of Thror",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 120,
@@ -15677,7 +15677,7 @@
 				"factions": [
 					{
 						"name": "Army of Thror",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 120,
@@ -15718,7 +15718,7 @@
 				"factions": [
 					{
 						"name": "Army of Thror",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 100,
@@ -15763,7 +15763,7 @@
 				"factions": [
 					{
 						"name": "Army of Thror",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 55,
@@ -15800,7 +15800,7 @@
 				"factions": [
 					{
 						"name": "Army of Thror",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 85,
@@ -15840,7 +15840,7 @@
 				"factions": [
 					{
 						"name": "Army of Thror",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -15877,7 +15877,7 @@
 				"factions": [
 					{
 						"name": "Army of Thror",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -15923,11 +15923,11 @@
 				"factions": [
 					{
 						"name": "The Beornings",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Wanderers in the Wild",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"allianceRules": {
@@ -15985,7 +15985,7 @@
 				"factions": [
 					{
 						"name": "The Beornings",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"unavailableSolo": true,
@@ -16031,7 +16031,7 @@
 				"factions": [
 					{
 						"name": "The Beornings",
-						"Crusade-ForceOrgSlot": "Independent Hero",
+						"CrusadeForceOrgSlot": "Independent Hero",
 						"unlockedBy": "Grimbeorn"
 					}
 				],
@@ -16083,11 +16083,11 @@
 				"factions": [
 					{
 						"name": "The Beornings",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Radagast's Alliance",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"hideStats": true,
@@ -16101,11 +16101,11 @@
 				"factions": [
 					{
 						"name": "The Beornings",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Radagast's Alliance",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"unavailableSolo": true,
@@ -16147,11 +16147,11 @@
 				"factions": [
 					{
 						"name": "The Beornings",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Radagast's Alliance",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"unavailableSolo": true,
@@ -16197,11 +16197,11 @@
 				"factions": [
 					{
 						"name": "The Serpent Horde",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Grand Army of the South",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 100,
@@ -16252,11 +16252,11 @@
 				"factions": [
 					{
 						"name": "The Serpent Horde",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Grand Army of the South",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"unlimited": true,
@@ -16308,7 +16308,7 @@
 				"factions": [
 					{
 						"name": "The Serpent Horde",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 130,
@@ -16347,15 +16347,15 @@
 				"factions": [
 					{
 						"name": "The Serpent Horde",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Corsairs of Umbar",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Grand Army of the South",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -16397,11 +16397,11 @@
 				"factions": [
 					{
 						"name": "The Serpent Horde",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Grand Army of the South",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -16447,11 +16447,11 @@
 				"factions": [
 					{
 						"name": "The Serpent Horde",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Grand Army of the South",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 50,
@@ -16490,11 +16490,11 @@
 				"factions": [
 					{
 						"name": "The Serpent Horde",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Grand Army of the South",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 75,
@@ -16534,7 +16534,7 @@
 				"factions": [
 					{
 						"name": "Corsairs of Umbar",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 90,
@@ -16575,11 +16575,11 @@
 				"factions": [
 					{
 						"name": "Mordor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Assault on Lothlorien",
-						"Crusade-ForceOrgSlot": "Hero of Valour",
+						"CrusadeForceOrgSlot": "Hero of Valour",
 						"leaderPriority": 1
 					}
 				],
@@ -16639,7 +16639,7 @@
 				"factions": [
 					{
 						"name": "Corsairs of Umbar",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -16692,7 +16692,7 @@
 				"factions": [
 					{
 						"name": "Corsairs of Umbar",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -16751,7 +16751,7 @@
 				"factions": [
 					{
 						"name": "Corsairs of Umbar",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 75,
@@ -16790,7 +16790,7 @@
 				"factions": [
 					{
 						"name": "Arnor",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 80,
@@ -16831,7 +16831,7 @@
 				"factions": [
 					{
 						"name": "Arnor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 70,
@@ -16867,7 +16867,7 @@
 				"factions": [
 					{
 						"name": "Arnor",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -16913,11 +16913,11 @@
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Rise of the Necromancer",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 250,
@@ -17006,11 +17006,11 @@
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Rise of the Necromancer",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 75,
@@ -17053,11 +17053,11 @@
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Rise of the Necromancer",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 75,
@@ -17100,11 +17100,11 @@
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Rise of the Necromancer",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 75,
@@ -17147,11 +17147,11 @@
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Rise of the Necromancer",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 75,
@@ -17193,11 +17193,11 @@
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Rise of the Necromancer",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 75,
@@ -17240,11 +17240,11 @@
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Rise of the Necromancer",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 75,
@@ -17287,11 +17287,11 @@
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Rise of the Necromancer",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 75,
@@ -17334,11 +17334,11 @@
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Rise of the Necromancer",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 75,
@@ -17381,11 +17381,11 @@
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Rise of the Necromancer",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 75,
@@ -17428,15 +17428,15 @@
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Rise of the Necromancer",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Pits of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 75,
@@ -17478,11 +17478,11 @@
 				"factions": [
 					{
 						"name": "Dark Powers of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Rise of the Necromancer",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"unlimited": true,
@@ -17526,11 +17526,11 @@
 				"factions": [
 					{
 						"name": "Far Harad",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Grand Army of the South",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"unlimited": true,
@@ -17584,11 +17584,11 @@
 				"factions": [
 					{
 						"name": "Far Harad",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Grand Army of the South",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -17642,11 +17642,11 @@
 				"factions": [
 					{
 						"name": "Far Harad",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Grand Army of the South",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"includesHeroes": [
@@ -17693,11 +17693,11 @@
 				"factions": [
 					{
 						"name": "Far Harad",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Grand Army of the South",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -17769,11 +17769,11 @@
 				"factions": [
 					{
 						"name": "Far Harad",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "Grand Army of the South",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"unavailableSolo": true,
@@ -17841,11 +17841,11 @@
 				"factions": [
 					{
 						"name": "The Serpent Horde",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Grand Army of the South",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -17919,7 +17919,7 @@
 				"factions": [
 					{
 						"name": "The Serpent Horde",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -17956,7 +17956,7 @@
 				"factions": [
 					{
 						"name": "The Serpent Horde",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -17994,7 +17994,7 @@
 				"factions": [
 					{
 						"name": "Far Harad",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unavailableSolo": true,
@@ -18022,7 +18022,7 @@
 				"factions": [
 					{
 						"name": "Far Harad",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unavailableSolo": true,
@@ -18060,11 +18060,11 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of the Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 60,
@@ -18111,11 +18111,11 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of the Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 45,
@@ -18161,11 +18161,11 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Defenders of the Shire",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"requiredIn": [
@@ -18219,11 +18219,11 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Defenders of the Shire",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"requiredIn": [
@@ -18279,11 +18279,11 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of the Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 25,
@@ -18320,11 +18320,11 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of the Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 45,
@@ -18373,11 +18373,11 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Defenders of the Shire",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"points": 15,
@@ -18413,11 +18413,11 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Defenders of the Shire",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"points": 10,
@@ -18451,7 +18451,7 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"allianceRules": {
@@ -18496,11 +18496,11 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of the Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 35,
@@ -18538,11 +18538,11 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "Defenders of the Shire",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"points": 15,
@@ -18577,11 +18577,11 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of the Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 30,
@@ -18618,11 +18618,11 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Defenders of the Shire",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"points": 20,
@@ -18657,11 +18657,11 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of the Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 30,
@@ -18698,11 +18698,11 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of the Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 20,
@@ -18739,11 +18739,11 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of the Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 30,
@@ -18778,11 +18778,11 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Defenders of the Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 40,
@@ -18820,15 +18820,15 @@
 				"factions": [
 					{
 						"name": "The Shire",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Chief's Ruffians",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "Sharkey's Rogues",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 30,
@@ -18864,7 +18864,7 @@
 				"factions": [
 					{
 						"name": "The Chief's Ruffians",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"unlimited": true,
@@ -18893,11 +18893,11 @@
 				"factions": [
 					{
 						"name": "Fell Beings of Mirkwood",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "Dark Denizens of Mirkwood",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"requiredWarriors": [
@@ -18946,7 +18946,7 @@
 				"factions": [
 					{
 						"name": "The Trolls",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 150,
@@ -18991,7 +18991,7 @@
 				"factions": [
 					{
 						"name": "The Trolls",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 130,
@@ -19031,7 +19031,7 @@
 				"factions": [
 					{
 						"name": "The Trolls",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 120,
@@ -19071,11 +19071,11 @@
 				"factions": [
 					{
 						"name": "Sharkey's Rogues",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					},
 					{
 						"name": "The Chief's Ruffians",
-						"Crusade-ForceOrgSlot": "Hero of Valour"
+						"CrusadeForceOrgSlot": "Hero of Valour"
 					}
 				],
 				"points": 45,
@@ -19117,11 +19117,11 @@
 				"factions": [
 					{
 						"name": "Sharkey's Rogues",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Chief's Ruffians",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 45,
@@ -19158,11 +19158,11 @@
 				"factions": [
 					{
 						"name": "Sharkey's Rogues",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Chief's Ruffians",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 40,
@@ -19200,11 +19200,11 @@
 				"factions": [
 					{
 						"name": "Sharkey's Rogues",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					},
 					{
 						"name": "The Chief's Ruffians",
-						"Crusade-ForceOrgSlot": "Hero of Fortitude"
+						"CrusadeForceOrgSlot": "Hero of Fortitude"
 					}
 				],
 				"points": 20,
@@ -19240,11 +19240,11 @@
 				"factions": [
 					{
 						"name": "Sharkey's Rogues",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					},
 					{
 						"name": "The Chief's Ruffians",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"points": 60,
@@ -19266,7 +19266,7 @@
 				"factions": [
 					{
 						"name": "Sharkey's Rogues",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"unavailableSolo": true,
@@ -19317,7 +19317,7 @@
 				"factions": [
 					{
 						"name": "Sharkey's Rogues",
-						"Crusade-ForceOrgSlot": "Hero of Legend"
+						"CrusadeForceOrgSlot": "Hero of Legend"
 					}
 				],
 				"unavailableSolo": true,
@@ -19352,7 +19352,7 @@
 				"factions": [
 					{
 						"name": "Wanderers in the Wild",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"allianceRules": {
@@ -19430,7 +19430,7 @@
 				"factions": [
 					{
 						"name": "Wanderers in the Wild",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"allianceRules": {
@@ -19504,15 +19504,15 @@
 				"factions": [
 					{
 						"name": "Wanderers in the Wild",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "Wanderers in the Wild (Evil)",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					},
 					{
 						"name": "Pits of Dol Guldur",
-						"Crusade-ForceOrgSlot": "Independent Hero"
+						"CrusadeForceOrgSlot": "Independent Hero"
 					}
 				],
 				"allianceRules": {
@@ -19584,7 +19584,7 @@
 				"factions": [
 					{
 						"name": "Wanderers in the Wild",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"allianceRules": {
@@ -19641,15 +19641,15 @@
 				"factions": [
 					{
 						"name": "Wanderers in the Wild",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Chief's Ruffians",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					},
 					{
 						"name": "Sharkey's Rogues",
-						"Crusade-ForceOrgSlot": "Minor Hero"
+						"CrusadeForceOrgSlot": "Minor Hero"
 					}
 				],
 				"allianceRules": {

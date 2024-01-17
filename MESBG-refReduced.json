@@ -3,18 +3,20 @@
 		"trackHighestDivision": true
 	},
 	"creditText": "Argel-Tal tries something",
-	"creditUrl": "nowforwrath.com",
-	"creditEmail": "nowforwrathblog@gmail.com",
-	"game": "Middle-Earth Strategy Battle Game",
+	"creditUrl": "https://github.com/Argel-Tal/HorusHeresy-1.0-TTAdmiral",
+	"creditEmail": "steviebezosyelling@gmail.com",
+	"game": "Horus Heresy (1.0)",
 	"elements": [
 		{
 			"propertyName": "factions",
 			"label": "Faction",
 			"type": "faction",
-			"divisionProperty": "alignment",
+			"divisionProperty": "forceCategory",
 			"divisions": [
-				"Good",
-				"Evil"
+				"LegionesAstartes",
+				"CrusadeImperialis", 
+				"Mechanicum", 
+				"Other"
 			],
 			"children": [
 				{
@@ -286,8 +288,8 @@
 	"data": {
 		"factions": [
 			{
-				"name": "Rohan",
-				"alignment": "good",
+				"name": "Taghamata",
+				"forceCategory": "Mechanicum",
 				"armyBonus": "\"Ride for Ruin and the World's Ending!\" - Friendly Rohan Cavalry models gain + 1 Strength on a turn in which they Charge.",
 				"additionalRules": "Riders of Rohan within this army list do not count towards your force's Bow Limit.",
 				"primaryAllies": [
@@ -310,18 +312,18 @@
 			},
 			{
 				"name": "Riders of Theoden",
-				"alignment": "good",
-				"parentFaction": "Rohan",
+				"forceCategory": "Mechanicum",
+				"parentFaction": "Taghamata",
 				"armyBonus": "“Ride for Ruin and the World's Ending!” - Friendly Rohan Cavalry models gain +1 Strength on a turn in which they Charge.\n“Death!” - The King of Rohan's battlecry inspired all that followed him to perform great deeds that would be worthy of remembrance. Once per game, at the start of any Fight phase, so long as he is alive and on the battlefield, Théoden can declare that he is using this ability. Every friendly Rohan Hero within 12\" may declare either a Heroic Combat or Heroic Strike (if able) without expending Might points to do so."
 			},
 			{
 				"name": "Minas Tirith",
-				"alignment": "good",
+				"forceCategory": "LegionesAstartes",
 				"armyBonus": "\"You are Men of Gondor. Whatever comes throught that Gate, you will stand your Ground!\" - Friendly Gondor models from this army list increase their Courage value by 1.",
 				"primaryAllies": [
 					"The Dead of Dunharrow",
 					"The Fiefdoms",
-					"Rohan"
+					"Taghamata"
 				],
 				"secondaryAllies": [
 					"Fangorn",
@@ -337,9 +339,9 @@
 				]
 			},
 			{
-				"name": "Theodred's Guard",
-				"alignment": "good",
-				"parentFaction": "Rohan",
+				"name": "Legio Cybernetica",
+				"forceCategory": "Mechanicum",
+				"parentFaction": "Taghamata",
 				"keywords": [
 					"Sworn Protector"
 				],
@@ -347,14 +349,13 @@
 			},
 			{
 				"name": "Defenders of Helm's Deep",
-				"alignment": "good",
-				"parentFaction": "Rohan",
+				"forceCategory": "Mechanicum",
+				"parentFaction": "Taghamata",
 				"armyBonus": "\"Fight in Ranks!\" - Friendly Rohan Infantry models armed with throwing spears spears may use them as standard spears in addition to their normal use. However, if a model uses their spear as a throwing spear in a turn, they cannot use it as a standard spear in the same turn.\n\"Give them a Volley\" - Models from this Legendary Legion armed with either a bow, longbow or Elf bow may increase the range of their type of bow from 24\" to 30\", provided they have not moved that turn.\n\"Fall Back to the keep! - If this force is Broken, then Warrior models from this force add 1 to their Courage value. Additionally, if this force is Broken, friendly Warrior models may re-roll failed Courage tests whilst they are within 6\" of Théoden.\"\nA Defenders of Helm's Deep Legendary Legion may only have a maximum of 33% of its models with the Lorien Keyword."
 			},
 			{
-				"name": "The Beornings",
-				"alignment": "Good",
-				"parentFaction": "Radagast's Alliance",
+				"name": "Solar Auxilia",
+				"forceCategory": "CrusadeImperialis",
 				"keywords": [
 					"Monstrous Charge",
 					"Resistant to Magic"
@@ -366,9 +367,9 @@
 				"parentFaction": "Minas Tirith",
 				"keywordMatches": [
 					"Gondor",
-					"Rohan"
+					"Taghamata"
 				],
-				"alignment": "Good",
+				"forceCategory": "LegionesAstartes",
 				"armyBonus": "All models in this force must have the Infantry keyword. No Cavalry models are available.\nOnly Gondor Hero models may lead Gondor Warrior models. Only Rohan Hero models may lead Rohan Warrior models.\n\"This Day We Fight!\" - Whilst Aragorn, King Elessar, is alive and on the battlefield, all models from this army list automatically pass all Courage tests that they are required to make.\n\"For Frodo!\" - Once per game, at the start of any Fight phase, so long as he is alive and on the battlefield, Aragorn can declare he is using this ability. Friendly models within 12\" increase their Fight value by 1 until the end of the turn."
 			},
 			{
@@ -377,7 +378,7 @@
 				"keywordMatches": [
 					"Gondor"
 				],
-				"alignment": "Good",
+				"forceCategory": "LegionesAstartes",
 				"keywords": [
 					"Woodland Creature"
 				],
@@ -420,7 +421,7 @@
 				],
 				"factions": [
 					{
-						"name": "Rohan",
+						"name": "Taghamata",
 						"heroicTier": "Hero of Legend"
 					},
 					{
@@ -455,7 +456,7 @@
 				],
 				"keywords": [
 					"Man",
-					"Rohan",
+					"Taghamata",
 					"Infantry",
 					"Hero"
 				],
@@ -464,7 +465,7 @@
 						"name": "Armoured horse",
 						"points": 15,
 						"availableIn": [
-							"Rohan",
+							"Taghamata",
 							"Riders of Theoden",
 							"Paths of the Druadan"
 						],
@@ -477,14 +478,14 @@
 						"name": "Horse",
 						"points": 10,
 						"availableIn": [
-							"Rohan"
+							"Taghamata"
 						]
 					},
 					{
 						"name": "Heavy armour",
 						"points": 5,
 						"availableIn": [
-							"Rohan",
+							"Taghamata",
 							"Riders of Theoden",
 							"Defenders of Helm's Deep",
 							"Paths of the Druadan"
@@ -498,7 +499,7 @@
 						"name": "Shield",
 						"points": 5,
 						"availableIn": [
-							"Rohan",
+							"Taghamata",
 							"Riders of Theoden",
 							"Defenders of Helm's Deep",
 							"Paths of the Druadan"
@@ -1023,7 +1024,7 @@
 						"The Misty Mountains",
 						"The Rangers",
 						"Rivendell",
-						"Rohan",
+						"Taghamata",
 						"The Shire",
 						"Wildmen of Druadan"
 					]
@@ -1491,7 +1492,7 @@
 						"Minas Tirith",
 						"The Fiefdoms",
 						"The Dead of Dunharrow",
-						"Rohan",
+						"Taghamata",
 						"Wildmen of Druadan",
 						"Rivendell",
 						"Lothlórien",
@@ -1533,8 +1534,8 @@
 			{
 				"name": "Warrior of Rohan",
 				"factions": [
-					"Rohan",
-					"Theodred's Guard",
+					"Taghamata",
+					"Legio Cybernetica",
 					"Defenders of Helm's Deep",
 					"Helm's Guard",
 					"The Men of the West"
@@ -1550,7 +1551,7 @@
 				"courage": 3,
 				"keywords": [
 					"Man",
-					"Rohan",
+					"Taghamata",
 					"Infantry",
 					"Warrior"
 				],

@@ -11,40 +11,6 @@ Horus Heresy 1st Edition is based on the Warhammer 6th-7th Edition framework
 - Neutral / 3rd Party
 
 ### Factions
-#### List
-- Legiones Astartes
-    - I: Dark Angels
-    - III: Emperor's Children
-    - IV: Iron Warriors
-    - V: White Scars
-    - VI: Space Wolves
-    - VII: Imperial Fists
-    - VIII: Night Lords
-    - IX: Blood Angels
-    - X: Iron Hands
-    - XII: World Eaters
-    - XIII: Ultramarines
-    - XIV: Death Guard
-    - XV: Thousand Sons
-    - XVI: Sons of Horus
-    - XVII: Word Bearers
-    - XVIII: Salamanders
-    - XIX: Raven Guard
-    - XX: Alpha Legion
-
-- Mechanicum
-    - Taghamata
-    - Legio Cybernetica
-    - Ordo Reductor
-    - Questoris Knights
-- Crusade Imperialis
-    - Solar Auxilia
-    - Militia and Cults
-- Other
-    - Daemons of the Ruinstorm
-    - Army of Dark Compliance
-
-#### Diagram
 ```mermaid
 mindmap
   root((FactionList))
@@ -79,7 +45,6 @@ mindmap
         Daemons of the Ruinstorm
         Army of Dark Compliance
 ```
-
 ### Force Orgs
 - Crusade
 - Allied Detachment
@@ -97,15 +62,12 @@ mindmap
 ### Unit Types
 #### List
 - Infantry
-    - Boosted
-        - Jump
-        - Jet Pack
+    - Jet Pack
     - Mounted
         - Bike
         - Jetbike
         - Cavalry
     - Beast
-    - Monstrous Creature
     - Artillery
 - Vehicle
     - Flyer
@@ -120,20 +82,17 @@ UnitContainer --|> Vehicle
 UnitContainer : str SpecialRules(s)
 UnitContainer : bool LoyalistOnly
 UnitContainer : bool TraitorOnly
-Infantry --|> Boosted
+Infantry --|> Jump
 Infantry --|> Mounted
 Infantry --|> Beast
-Infantry --|> Monstrous Creature
 Infantry --|> Artillery
-Boosted --|> Jump
-Boosted --|> Jet Pack
 Mounted --|> Bike
 Mounted --|> Jetbike
 Mounted --|> Cavalry
-Vehicle --|> Flyers
-Vehicle --|> Chariots
-Vehicle --|> Walkers
-Infantry : int Mv
+Infantry --|> Chariot
+Vehicle --|> Chariot
+Vehicle --|> Walker
+Infantry : int Mv = 6
 Infantry : int WS
 Infantry : int BS
 Infantry : int S
@@ -151,6 +110,44 @@ Vehicle : int Side AV
 Vehicle : int Rear AV
 Vehicle : int Front HP
 Vehicle : str Type(s)
+Walker  :   int S
+Walker  :   int WS
+Walker  :   int I
+Walker  :   int A
+Mounted :   int Mv = 12
+Beast :   int Mv = 12
+Jump    :   int Mv = 6/12
+Artillery   :   int WS = NA
+Artillery   :   int BS = NA
+Artillery   :   int S = NA
+Artillery   :   int I = NA
+Artillery   :   int A = NA
+Artillery   :   int Ld = NA
+```
+
+### Unit Implementation Plan
+#### Examples
+##### Angron
+```json
+traitorOnly =   TRUE
+HQ          =   TRUE
+LOW         =   TRUE
+WorldEaters =   TRUE
+DarkCompliance  =   TRUE (?)
+```
+##### Garrow
+```json
+loyalistOnly    =   TRUE
+HQ              =   TRUE
+Mechanicum      =   TRUE
+LegionesAstartes    =   TRUE
+CrusadeImperialis   =   TRUE
+```
+
+##### Leman Russ Executioner
+```json
+HeavySupport    =   TRUE
+CrusadeImperialis   =   TRUE
 ```
 
 ## Links

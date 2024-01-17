@@ -25509,6 +25509,11 @@
 				"definition": "Counts as a lance while mounted, and a spear while dismounted"
 			},
 			{
+				"name": "Blade of the Laer - The",
+				"type": "Weapon",
+				"definition": "Don't worry about it TODO."
+			},
+			{
 				"name": "Axe of Lossarnach",
 				"type": "Weapon",
 				"definition": "An Axe of Lossarnach can be used as either a spear or a two-handed axe."
@@ -26328,6 +26333,10 @@
 			}
 		],
 		"keywords": [
+			{
+				"name": "Bulky",
+				"definition": "Counts as two models."
+			},
 			{
 				"name": "Ride for Ruin and the World's Ending!",
 				"definition": "Friendly Rohan Cavalry models gain + 1 Strength on a turn in which they Charge."

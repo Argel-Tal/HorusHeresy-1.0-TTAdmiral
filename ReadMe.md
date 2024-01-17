@@ -32,8 +32,8 @@ mindmap
         Alpha Legion
     Mechanicum
         Taghamata
-        Legio Cybernetica
-        Ordo Reductor
+            Legio Cybernetica
+            Ordo Reductor
         Questoris Knights
     CrusadeImperialis
         Solar Auxilia
@@ -42,6 +42,23 @@ mindmap
         Daemons of the Ruinstorm
         Army of Dark Compliance
 ```
+
+Groupings where there is no actual faction in that field are for the purposes of the Ally Matrix, where all subfactions are treated as one entry
+
+```json
+{
+    "name": "Mechanicum"
+}, 
+{
+    "name": "Taghmata",
+    "parentFaction": "Mechanicum",
+}, 
+{
+    "name": "Ordo Reductor",
+    "parentFaction": "Taghmata",
+}
+```
+
 #### Force Orgs
 - Crusade
 - Allied Detachment
@@ -202,16 +219,6 @@ Artillery   :   int Ld = NA
     "wargear": [
     	"Gorechild"
     ]
-}
-```
-
-```json
-{
-    "name": "Taghmata",
-}, 
-{
-    "name": "Ordo Reductor",
-    "parentFaction": "Taghmata",
 }
 ```
 

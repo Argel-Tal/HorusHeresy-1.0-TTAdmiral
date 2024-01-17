@@ -8007,6 +8007,7 @@ Precision Shots</description>
           <entryLinks>
             <entryLink id="ebe9-899f-e2ba-bdef" name="Saturnyne Pattern Aurox Armoured Transport" hidden="false" collective="false" import="true" targetId="5163-ab15-9959-6efd" type="selectionEntry"/>
             <entryLink id="e6d9-e16d-bc29-eba1" name="Terrax Pattern Termite Assault Drill" hidden="false" collective="false" import="true" targetId="3879-9d90-7c4a-5905" type="selectionEntry">
+            <entryLink id="12a3-b7b8-3193-9e26" name="Dracosan Armoured Transport" hidden="false" collective="false" import="true" targetId="1c41cdb2-f7c8-ea03-d50d-4f68772731f2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="395f-fcff-e945-5222" type="max"/>
               </constraints>

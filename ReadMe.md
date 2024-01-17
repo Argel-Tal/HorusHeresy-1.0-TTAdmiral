@@ -5,12 +5,9 @@ Supporting Heresy 1.0 given the BattleScribe repos for 1.0 are no longer being m
 
 ## Implementation
 Horus Heresy 1st Edition is based on the Warhammer 6th-7th Edition framework
-### Alignment
-- Loyalist
-- Traitor
-- Neutral / 3rd Party
 
-### Factions
+### Selecting an Army
+#### Factions
 ```mermaid
 mindmap
   root((FactionList))
@@ -45,7 +42,7 @@ mindmap
         Daemons of the Ruinstorm
         Army of Dark Compliance
 ```
-### Force Orgs
+#### Force Orgs
 - Crusade
 - Allied Detachment
 - Onslaught
@@ -58,6 +55,17 @@ mindmap
 - Zone Mortalis Attacker
 - Zone Mortalis Defender
 - Zone Mortalis Combatant
+
+#### Alignment
+- Loyalist
+- Traitor
+- Neutral / 3rd Party
+
+#### Process
+1. Faction
+0. Force Org
+0. Alignment
+0. Rite of War (if Legiones Astartes)
 
 ### Unit Types
 #### List
@@ -129,26 +137,99 @@ Artillery   :   int Ld = NA
 #### Examples
 ##### Angron
 ```json
-traitorOnly =   TRUE
-HQ          =   TRUE
-LOW         =   TRUE
-WorldEaters =   TRUE
-DarkCompliance  =   TRUE (?)
+{
+    "name": "Angron - Lord of the Red Sands",
+    "factions": [
+        {
+            "name": "World Eaters",
+            "Crusade-ForceOrgSlot": "HQ"
+		},
+		{
+		    "name": "World Eaters",
+            "Crusade-ForceOrgSlot": "Lord of War"
+        },
+        {
+            "name": "Dark Compliance",
+            "Crusade-ForceOrgSlot": "Lord of War"
+        }			
+    ],
+    "alignment": [
+        {
+            "name": "Traitors"
+        }
+    ], 
+    "requiredIn": [
+        "Primarch's Chosen",
+    ],
+    "points": 400ish,
+    "movement": 6,
+    "weaponSkill": 999,
+    "ballisticSkill": 666,
+    "strength": 444,
+    "toughness": 555,
+    "initative": 333,
+    "attacks": 333,
+    "wounds": 6,
+    "leadership": 6,
+    "save": 3,
+    "invulnSave": 3,
+    "UnitType": [
+    	"Infantry"
+    ],
+    "options": [
+    	{
+    		"name": "a fake upgrade",
+    		"points": 40,
+    		"availableIn": [
+    			"World Eaters"
+    		]
+    	},
+    	{
+    		"name": "a fake upgrade",
+    		"points": 0,
+    		"availableIn": [
+    			"Dark Compliance"
+    		],
+    		"requiredIn": [
+    			"Dark Compliance"
+    		]
+    	}
+    ],
+    "specialRules": [
+    	"Primarch",
+    	"..."
+    ],
+    "wargear": [
+    	"Gorechild"
+    ]
+}
 ```
+
+```json
+{
+    "name": "Taghmata",
+}, 
+{
+    "name": "Ordo Reductor",
+    "parentFaction": "Taghmata",
+}
+```
+
 ##### Garrow
 ```json
-loyalistOnly    =   TRUE
-HQ              =   TRUE
-Mechanicum      =   TRUE
+loyalistOnly        =   TRUE
+HQ                  =   TRUE
+Mechanicum          =   TRUE
 LegionesAstartes    =   TRUE
 CrusadeImperialis   =   TRUE
 ```
 
 ##### Leman Russ Executioner
 ```json
-HeavySupport    =   TRUE
+HeavySupport        =   TRUE
 CrusadeImperialis   =   TRUE
 ```
+
 
 ## Links
 ### Client

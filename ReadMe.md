@@ -59,6 +59,8 @@ Groupings where there is no actual faction in that field are for the purposes of
 }
 ```
 
+<img src="./ReadMeImages/FactionPicker.png" width="800">
+
 #### Force Orgs
 - Crusade
 - Allied Detachment

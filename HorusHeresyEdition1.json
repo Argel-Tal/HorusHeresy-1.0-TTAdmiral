@@ -20,8 +20,8 @@
 			],
 			"children": [
 				{
-					"propertyName": "units",
-					"label": "Unit",
+					"propertyName": "Crusade-ForceOrg",
+					"label": "Crusade Force Org",
 					"type": "main",
 					"divisionProperty": "Crusade-ForceOrgSlot",
 					"divisionData": "Crusade-ForceOrgSlots",
